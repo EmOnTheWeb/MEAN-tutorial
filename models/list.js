@@ -31,3 +31,4 @@ module.exports.deleteListById = (id, callback) => {
     let query = {_id: id};
     BucketList.remove(query, callback);
 }
+
